@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: cursive;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	margin: 20px;
+}
+
+#intro {
+	margin-bottom: 40px;
+}
+
+#intro h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+#benefits {
+	margin-bottom: 40px;
+}
+
+#benefits h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#benefits ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#benefits li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#benefits li img {
+	margin-bottom: 20px;
+}
+
+#resources {
+	margin-bottom: 40px;
+}
+
+#resources h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#resources ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#resources li {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+}

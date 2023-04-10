@@ -1,0 +1,70 @@
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+#impact {
+	background-color: #f5f5f5;
+	padding: 50px 0;
+}
+
+#impact h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+}
+
+#impact p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: white;
+	line-height: 1.6;
+}
+
+#impact ul {
+	margin-bottom: 20px;
+}
+
+#impact li {
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: white;
+	line-height: 1.6;
+}
+
+body{
+    font-family: cursive;
+}
+.container{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    color: white;
+}
+
